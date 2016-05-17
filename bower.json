@@ -1,0 +1,29 @@
+{
+  "name": "glowing-katana-legend",
+  "description": "An RPG game maker for Arduboy",
+  "main": "dist/glowing-katana-legend.js",
+  "authors": [
+    "Lewis Edward Moten III"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "RPG",
+    "Game",
+    "Editor",
+    "Arduboy",
+    "Arduino",
+    "Sketch"
+  ],
+  "homepage": "https://github.com/lewismoten/glowing-katana-legend#readme",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

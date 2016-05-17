@@ -1,0 +1,44 @@
+{
+  "name": "glowing-katana-legend",
+  "version": "1.0.0",
+  "description": "An RPG game maker for Arduboy",
+  "main": "dist/glowing-katana-legend.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewismoten/glowing-katana-legend.git"
+  },
+  "keywords": [
+    "RPG",
+    "Game",
+    "Editor",
+    "Arduboy",
+    "Arduino",
+    "Sketch"
+  ],
+  "author": "Lewis Edward Moten III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewismoten/glowing-katana-legend/issues"
+  },
+  "homepage": "https://github.com/lewismoten/glowing-katana-legend#readme",
+  "devDependencies": {
+    "gulp-istanbul": "^0.10.4",
+    "gulp-jasmine": "^2.3.0",
+    "istanbul": "^0.4.3",
+    "jasmine": "^2.4.1",
+    "semver-regex": "^1.0.0"
+  },
+  "dependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-uglify": "^1.5.3"
+  }
+}

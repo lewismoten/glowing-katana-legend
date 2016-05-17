@@ -1,0 +1,11 @@
+engines:
+  eslint:
+    enabled: false
+    checks:
+      complexity:
+        enabled: true
+    config:
+      extensions:
+        - .es6
+        - .js
+        - .jsx

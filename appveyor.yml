@@ -1,0 +1,22 @@
+version: "{build}"
+
+platform: x64
+
+environment:
+  nodejs_version: "6.0.0"
+
+install:
+    - npm install
+    - npm install -g bower
+    - npm install -g gulp
+    - bower install
+
+test_script:
+    - gulp build
+    - gulp test
+
+build: off
+
+branches:
+    only:
+      - master
