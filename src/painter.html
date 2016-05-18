@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <script src="/bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+    <script src="painter.js" type="text/javascript"></script>
+  </head>
+  <body style="background-color: gray">
+
+    Name: <input id="imageName" type="text" value="image"><br>
+
+    Download: <a id="download"></a><br>
+    <input id="filePicker" type="file">
+
+    <br>
+    Width: <input id="imageWidth" type="range" min="1" max="128"><span id="widthLabel"></span><br>
+    Height: <input id="imageHeight" type="range" min="1" max="64"><span id="heightLabel"></span><br>
+    Zoom: <input id="imageZoom" type="range" min="1" max="8"><span id="zoomLabel"></span><br>
+
+    <canvas id="actualCanvas" width="8" height="10" style="background-color:white;cursor:default"></canvas><br><br>
+    <canvas id="zoomCanvas" width="80" height="80" style="background-color:white;cursor:default"></canvas>
+
+    <br>
+    File: <span id="inoFileName">image</span>.ino<br>
+    <textarea id="inoFile" style="width:500;height:270"></textarea><br>
+    <br>
+    File: <span id="hFileName">image</span>.h<br>
+    <textarea id="hFile" style="width:500;height:120px">#ifndef IMAGE_H
+    #define IMAGE_H
+
+    extern const unsigned char image[];
+
+    #endif</textarea><br>
+    <br>
+    File: <span id="cppFileName">image</span>.cpp<br>
+    <textarea id="cppFile" style="width:500;height:200px"></textarea>
+
+
+  </body>
+</html>

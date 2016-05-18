@@ -14,20 +14,20 @@
     "regexYFlag": true,
     "templateStrings": true,
     "unicodeCodePointEscapes": true,
-    "jsx": true
+    "jsx": false
   },
 
   "env": {
-    "browser": false,
-    "node": true,
+    "browser": true,
+    "node": false,
     "amd": false,
     "mocha": false,
     "jasmine": false,
     "phantomjs": false,
-    "jquery": false,
+    "jquery": true,
     "prototypejs": false,
     "shelljs": false,
-    "es6": true
+    "es6": false
   },
 
   "globals": {
@@ -174,13 +174,13 @@
     "space-unary-ops": 1,
     "spaced-comment": 1,
     "wrap-regex": 1,
-    "no-var": 1,
+    "no-var": 0,
     "generator-star-spacing": 1,
     "max-depth": 1,
     "max-len": 1,
     "max-params": 1,
     "max-statements": [2, 30],
-    "no-bitwise": 1,
-    "no-plusplus": 1
+    "no-bitwise": 0,
+    "no-plusplus": 0
   }
 }
