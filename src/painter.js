@@ -6,7 +6,7 @@
     zoomCanvas,
     actualCanvas,
     bitmapWidth = 8,
-    bitmapHeight = 16,
+    bitmapHeight = 8,
     bitmapZoom = 10,
     penColorWhite = true,
     penColorBlack = false,
