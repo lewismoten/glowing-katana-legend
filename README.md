@@ -1,9 +1,7 @@
 # Glowing Katana Legend
 
-[![Travis](https://img.shields.io/travis/lewismoten/glowing-katana-legend.svg?style=flat-square&label=linux%20%26%20osx%20build)](https://travis-ci.org/lewismoten/glowing-katana-legend)
 [![AppVeyor](https://img.shields.io/appveyor/ci/lewismoten/glowing-katana-legend/master.svg?style=flat-square&label=windows%20build)](https://ci.appveyor.com/project/lewismoten/glowing-katana-legend)
 [![Code Climate](https://img.shields.io/codeclimate/github/lewismoten/glowing-katana-legend.svg?style=flat-square)](https://codeclimate.com/github/lewismoten/glowing-katana-legend)
-[![David](https://img.shields.io/david/lewismoten/glowing-katana-legend.svg?style=flat-square)](https://david-dm.org/lewismoten/glowing-katana-legend)
 [![license](https://img.shields.io/badge/license-ISC-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/lewismoten/glowing-katana-legend/master/LICENSE)
 [![Gitter](https://img.shields.io/gitter/room/lewismoten/glowing-katana-legend.js.svg?style=flat-square)](https://gitter.im/lewismoten/glowing-katana-legend)
 
