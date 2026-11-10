@@ -1,3 +1,5 @@
+![glowing-katana-legend: RPG editor for Arduboy](docs/images/social-preview.png)
+
 # Glowing Katana Legend
 
 [![AppVeyor](https://img.shields.io/appveyor/ci/lewismoten/glowing-katana-legend/master.svg?style=flat-square&label=windows%20build)](https://ci.appveyor.com/project/lewismoten/glowing-katana-legend)
